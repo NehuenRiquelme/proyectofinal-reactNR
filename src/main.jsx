@@ -6,25 +6,21 @@ import { ChakraProvider } from '@chakra-ui/react'
 
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyB-SKiElx-HRLTrga_dPoNXY1KU8rW_uiE",
-  authDomain: "storerc-204da.firebaseapp.com",
-  projectId: "storerc-204da",
-  storageBucket: "storerc-204da.appspot.com",
-  messagingSenderId: "158892006436",
-  appId: "1:158892006436:web:e5c77b5fe33be43be04cb1",
-  measurementId: "G-WH9FTF5WVQ"
+  apiKey: "AIzaSyDY6lwqF0yuqu89xcgaZtzzEZ6wxI6UxxI",
+  authDomain: "tony-react-c42fa.firebaseapp.com",
+  projectId: "tony-react-c42fa",
+  storageBucket: "tony-react-c42fa.appspot.com",
+  messagingSenderId: "110667897395",
+  appId: "1:110667897395:web:a8e6b80c206a26d4b76146"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   

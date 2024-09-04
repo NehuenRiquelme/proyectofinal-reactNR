@@ -13,7 +13,7 @@ const NavBar = () => {
 
           <Link to='/'>
             <Flex alignItems='center'>
-              Tony's Player one               
+              storeRC               
             </Flex>
 
           </Link>
